@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/appIconIV"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+
+    <TextView
+        android:id="@+id/aNametxt"
+        android:text="Android Name"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/appIconIV"
+        android:layout_toEndOf="@+id/appIconIV"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/txtprice"
+        android:text="price"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aNametxt"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+    <TextView
+        android:id="@+id/txtcarat"
+        android:text="carat"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtprice"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+    <TextView
+        android:id="@+id/txtcut"
+        android:text="cut"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcarat"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+    <TextView
+        android:id="@+id/txtclarity"
+        android:text="clarity"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcut"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+    measurement
+
+    <TextView
+        android:id="@+id/txtmeasurement"
+        android:text="measurement"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtclarity"
+        android:layout_alignLeft="@+id/aNametxt"
+        android:layout_alignStart="@+id/aNametxt" />
+
+</RelativeLayout>

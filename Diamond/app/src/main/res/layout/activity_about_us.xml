@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/bottomNavigationView">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/l1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t1"
+                    android:textSize="35dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="About Us"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t2"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="Founded in 1999, Amrut Export has grown to become the largest onlineretailer of certified diamonds and fine jewelry. Internet Retailer Magazine reports Amrut Export isbigger than the next three largest online jewelers combined."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t3"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Manufacturing"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t4"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="Our manufacturing capabilities are among the best in the world. Not only are wecredited with having the best infrastructure in the industry, but we are also hailed as the innovators of several sophisticatedsystems within the diamond manufacturing sphere. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t5"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Management"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t6"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="we have a strong management team comprising of the second andthird generations from the family, who are strongly committed to themission and values of the company. They always strive to ensure thesuccess of the company. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t7"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Certifications"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t8"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="Our company is ISO 9001 (QMS), ISO 14001(EMS), OHSAS 18001 (OHS), ISO 22000 (FSMS) and ISO50001 (EnMS) certifiedcompany from the British Standard Institution (BSI). Our company became a member of The U.S.Green BuildingCouncil® in 2012. "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t9"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Associate With"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t10"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:text="SIGHTHOLDER \nFOREVERMARK \nCANADAMARK \n"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+
+</RelativeLayout>

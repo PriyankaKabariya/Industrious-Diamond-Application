@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Diamond</string>
+
+    <string name="prefStatus">loginstate</string>
+</resources>

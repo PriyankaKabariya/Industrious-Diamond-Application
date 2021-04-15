@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/bottomNavigationView">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/l1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t1"
+                    android:textSize="35dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Our Services"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t2"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="To deliver the best service, quality and price tailored to each client's individual needs. After allisn't that what you have come to expect from Diamond Company"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t3"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Values"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t4"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="Integrity, transparency, accountability and credibility are the values we cherish and adhereto in all aspects of dealings with our employees, clients and associates."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t5"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Vision"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t6"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="To strengthen our position as the world’s most trusted supplier of premium, certified, highquality, ethically sourced and meticulously/perfectly manufactured diamonds."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t7"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Mission"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t8"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="To commit wholeheartedly to the pursuit of excellence while being mindful of theenvironmental and societal impact of our business."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t9"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Our Trust"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t10"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="Amrut Exports has grown to become a globally trusted and respectedplayer in the diamond industry over the last five decades. Ourexpertise lies in our ability to produce a consistent supply of qualitypolished diamonds in all shapes and sizes."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t11"
+                    android:textSize="35dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:text="Transparency"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t12"
+                    android:paddingTop="7dp"
+                    android:layout_gravity="center"
+                    android:textColor="#272626"
+                    android:text="SGS is a metric derived over a transparent and stringent 16-step process to authenticate thetrue value of a diamond.
+                    \nThe system is so refined that objectivity truly wins over subjectivity.
+\nIn a sense, the SGS metric is turning out to be an authoritative and conclusive measure of adiamond,evidently going beyond the current industry standards of 4C evaluation."/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r2"
+                android:layout_below="@id/l1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="30dp">
+
+
+                <ImageView
+                    android:id="@+id/imgpic1"
+                    android:background="@drawable/pic01"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n- Jane Doe"
+                    android:textStyle="bold"
+                    android:textColor="#E11717"
+                    android:paddingLeft="5dp"
+                    android:layout_toRightOf="@id/imgpic1"
+                    android:id="@+id/t13"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t14"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@id/t13"
+                    android:layout_toRightOf="@id/imgpic1"
+                    android:layout_gravity="right"
+                    android:textColor="#504C4C"
+                    android:textStyle="italic"
+                    android:text="If you have a specific budget. \nAmrut Export has a huge selection of diamonds,so you have more choices in your price range with your preferred characteristics."/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_below="@id/r2"
+                android:paddingTop="30dp">
+
+
+                <ImageView
+                    android:id="@+id/imgpic2"
+                    android:background="@drawable/pic02"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n- Janet Smith"
+                    android:textColor="#E11717"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:layout_toRightOf="@id/imgpic2"
+                    android:id="@+id/t15"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t16"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@id/t15"
+                    android:layout_toRightOf="@id/imgpic2"
+                    android:layout_gravity="right"
+                    android:textColor="#504C4C"
+                    android:textStyle="italic"
+                    android:text="Brilliant, as described, no issues, I have not given the present yet so I don't know ifthe chain islong enough but they said they would swap it if needed, can't ask for anything more"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_below="@id/r3"
+                android:paddingTop="30dp">
+
+
+                <ImageView
+                    android:id="@+id/imgpic3"
+                    android:background="@drawable/pic03"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\n- Dhiren Patel"
+                    android:textColor="#E11717"
+                    android:paddingLeft="5dp"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@id/imgpic3"
+                    android:id="@+id/t17"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/t18"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@id/t17"
+                    android:layout_toRightOf="@id/imgpic3"
+                    android:layout_gravity="right"
+                    android:textColor="#504C4C"
+                    android:textStyle="italic"
+                    android:text="Amrut Export also guarantees to have the lowest diamond prices. In fact, if you see another comparable certified diamond at a lower price, Amrut Exportwill match the price.\n\n"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+</RelativeLayout>
